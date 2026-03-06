@@ -41,7 +41,7 @@ kubernetes = ">= 27.2.0"
 cryptography = "46.0.5"
 executing = "2.2.1"
 pydantic = ">= 2.10.6"
-ipywidgets = "8.1.2"
+ipywidgets = "8.1.8"
 kube-authkit = ">=0.4.0"
 
 [[tool.poetry.source]]
