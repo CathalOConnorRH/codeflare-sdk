@@ -42,7 +42,7 @@ jobs:
             actions: write # This permission is required for running actions
         steps:
             - name: Checkout the repository
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
               with:
                   ref: ${{ github.event.inputs.release-branch }}
                   token: ${{ secrets.GH_CLI_TOKEN }}
