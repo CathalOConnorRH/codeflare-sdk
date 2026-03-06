@@ -47,7 +47,7 @@ jobs:
                   ref: ${{ github.event.inputs.release-branch }}
                   token: ${{ secrets.GH_CLI_TOKEN }}
             - name: Install Python
-              uses: actions/setup-python@v5
+              uses: actions/setup-python@v6
               with:
                 python-version: ${{ github.event.inputs.python_version }}
             - name: Install Poetry
