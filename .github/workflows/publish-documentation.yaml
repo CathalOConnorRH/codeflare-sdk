@@ -37,7 +37,7 @@ jobs:
           sphinx-apidoc -o docs/sphinx src/codeflare_sdk "**/*test_*" --force # Generate docs but ignore test files
           make html -C docs/sphinx
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
