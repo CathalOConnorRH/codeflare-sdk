@@ -17,7 +17,7 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: your-org/ai-dependency-fixer@v1   # or @v1 if you tag a release
+      - uses: CathalOConnorRH/ai-dependency-fixer@v1   # or @v1 if you tag a release
         with:
           # ai-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
           ai-provider: openai                    # uncomment to use OpenAI instead
