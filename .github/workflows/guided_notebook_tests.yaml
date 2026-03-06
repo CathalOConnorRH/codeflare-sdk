@@ -32,7 +32,7 @@ jobs:
           path: 'common'
 
       - name: Set up specific Python version
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies
@@ -161,7 +161,7 @@ jobs:
           path: 'common'
 
       - name: Set up specific Python version
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies
@@ -292,7 +292,7 @@ jobs:
           path: 'common'
 
       - name: Set up specific Python version
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies

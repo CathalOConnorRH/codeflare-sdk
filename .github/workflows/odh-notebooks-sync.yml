@@ -51,7 +51,7 @@ jobs:
           git pull upstream $BRANCH_NAME && git push origin $BRANCH_NAME
 
       - name: Setup Python environment
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pipenv'
