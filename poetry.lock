@@ -826,7 +826,7 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
-markers = {main = "sys_platform == \"win32\" or platform_system == \"Windows\"", dev = "platform_system == \"Windows\"", docs = "sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
+markers = {main = "platform_system == \"Windows\" or sys_platform == \"win32\"", dev = "platform_system == \"Windows\"", docs = "sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
 
 [[package]]
 name = "colorful"
@@ -4587,14 +4587,14 @@ pyasn1 = ">=0.1.3"
 
 [[package]]
 name = "selenium"
-version = "4.41.0.202601270013"
+version = "4.42.0.202603140015"
 description = "Official Python bindings for Selenium WebDriver"
 optional = false
 python-versions = ">=3.10"
 groups = ["test"]
 files = [
-    {file = "selenium-4.41.0.202601270013-py3-none-any.whl", hash = "sha256:fc1b9e1c6ab76b690b247718ede722a4f55c092df097ff471cf230ff2989c4ab"},
-    {file = "selenium-4.41.0.202601270013.tar.gz", hash = "sha256:6ca2e5d4729538c29b08da07016fc1cabc8ce22fda65b5e4a78b375894b8765b"},
+    {file = "selenium-4.42.0.202603140015-py3-none-any.whl", hash = "sha256:c13a233607030c0b0e9f53fa1b571423dde2ea9ae30d3ed7c1900a28eb401cb2"},
+    {file = "selenium-4.42.0.202603140015.tar.gz", hash = "sha256:1a86a173230adeb54baf36230e2a203e205f2dc21ab59fa38c9e1e76d562efe2"},
 ]
 
 [package.dependencies]
@@ -5520,4 +5520,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "5f403dd55a6eb3ee1cfe3f5141aa996292a8718a3245703f8c3975a5c1cccc66"
+content-hash = "9aae6a25eb70d0ce4c64496d6cfc235be3aef0fef38048e4dbe76e5251219cf5"
