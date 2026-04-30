@@ -545,14 +545,14 @@ css = ["tinycss2 (>=1.1.0,<1.5)"]
 
 [[package]]
 name = "certifi"
-version = "2026.1.4"
+version = "2026.4.22"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.7"
 groups = ["main", "docs", "test"]
 files = [
-    {file = "certifi-2026.1.4-py3-none-any.whl", hash = "sha256:9943707519e4add1115f44c2bc244f782c0249876bf51b6599fee1ffbedd685c"},
-    {file = "certifi-2026.1.4.tar.gz", hash = "sha256:ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120"},
+    {file = "certifi-2026.4.22-py3-none-any.whl", hash = "sha256:3cb2210c8f88ba2318d29b0388d1023c8492ff72ecdde4ebdaddbb13a31b1c4a"},
+    {file = "certifi-2026.4.22.tar.gz", hash = "sha256:8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580"},
 ]
 
 [[package]]
@@ -826,7 +826,7 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
-markers = {main = "sys_platform == \"win32\" or platform_system == \"Windows\"", dev = "platform_system == \"Windows\"", docs = "sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
+markers = {main = "platform_system == \"Windows\" or sys_platform == \"win32\"", dev = "platform_system == \"Windows\"", docs = "sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
 
 [[package]]
 name = "colorful"
@@ -4587,18 +4587,18 @@ pyasn1 = ">=0.1.3"
 
 [[package]]
 name = "selenium"
-version = "4.41.0.202601270013"
+version = "4.44.0.202604300028"
 description = "Official Python bindings for Selenium WebDriver"
 optional = false
 python-versions = ">=3.10"
 groups = ["test"]
 files = [
-    {file = "selenium-4.41.0.202601270013-py3-none-any.whl", hash = "sha256:fc1b9e1c6ab76b690b247718ede722a4f55c092df097ff471cf230ff2989c4ab"},
-    {file = "selenium-4.41.0.202601270013.tar.gz", hash = "sha256:6ca2e5d4729538c29b08da07016fc1cabc8ce22fda65b5e4a78b375894b8765b"},
+    {file = "selenium-4.44.0.202604300028-py3-none-any.whl", hash = "sha256:e1560a2a6f593fc7033c52bbf7d46c2d3fb52eee4c07820ef5ce3ac887ed5e6b"},
+    {file = "selenium-4.44.0.202604300028.tar.gz", hash = "sha256:a772eb487d747db6decc2373461cf6796d452d8515e8dfed4e569c4a74359530"},
 ]
 
 [package.dependencies]
-certifi = ">=2026.1.4"
+certifi = ">=2026.2.25"
 trio = ">=0.31.0,<1.0"
 trio-websocket = ">=0.12.2,<1.0"
 typing_extensions = ">=4.15.0,<5.0"
@@ -5520,4 +5520,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "5f403dd55a6eb3ee1cfe3f5141aa996292a8718a3245703f8c3975a5c1cccc66"
+content-hash = "e02d8dcfa5043844b7e36eeecb4bf71d5399daad4c435a077cf693d84396fc50"
