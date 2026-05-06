@@ -24,7 +24,7 @@ jobs:
       E2E_TEST_IMAGE_VERSION: ${{ github.event.inputs.E2E_TEST_IMAGE_VERSION || 'latest' }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.inputs.BRANCH || 'main' }}
           submodules: recursive
